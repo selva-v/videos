@@ -1,4 +1,4 @@
-A simple react application to search images.
+A simple react application to search videos from YouTube.
 
 ## Prerequisites
 
