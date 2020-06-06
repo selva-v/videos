@@ -4,7 +4,7 @@ import SearchBar from './SearchBar';
 import youtube from '../api/youTube';
 import VideoList from './VideoList';
 import VideoDetal from './VideoDetail';
-const KEY = 'AIzaSyBQr5tmQa_ffotZvbYFWXhrFyeqMIFb4bI';
+const KEY = 'youtube_api_key';
 
 class App extends Component {
   state = { videos: [], selectedVideo: null };
