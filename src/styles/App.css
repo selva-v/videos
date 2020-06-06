@@ -1,0 +1,26 @@
+.app-container {
+  margin: 10px auto 0;
+}
+
+.video-item {
+  display: flex !important;
+  align-items: center !important;
+  cursor: pointer;
+}
+
+.video-item.item img {
+  max-width: 160px;
+}
+
+.ui.list .video-item.item .header {
+  margin: 0 0 10px;
+  max-height: 30px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.ui.list .video-item.item .description {
+  max-height: 15px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
